@@ -4,6 +4,15 @@ html {
     margin: 0;
 }
 
+.div-welcome {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    height: 5vh;
+}
+
 .container-navbar {
     background-color: #333;
     height: 10vh;
@@ -43,7 +52,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 75vh;
 }
 
 .img-content {
@@ -83,12 +92,7 @@ p {
     font-style: initial;
     display: flex;
     justify-content: center;
-}
-
-.h2-footer {
-    font-style: initial;
-    display: flex;
-    justify-content: center;
+    align-items: center;
 }
 
 .ul-contact {
@@ -101,10 +105,62 @@ p {
     background-color: gold;
     border-radius: 50px;
     text-decoration: none;
+    list-style: square
 }
 
 .toko-content {
     width: 100vh;
     height: 60vh;
     border-radius: 0px;
+}
+
+.about-content {
+    background-color: gold;
+    text-decoration: none;
+    color: black;
+}
+
+.div-member {
+    background-color: cyan;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+ 
+.ul-member {
+    width: 100%;
+    height: 10vh;
+}
+
+.div-input {
+
+}
+
+.div-judul {
+    display: flex;
+    justify-content: center;
+}
+
+.tr-judul {
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px 13px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-family: 'poppins' , sans-serif;
 }
